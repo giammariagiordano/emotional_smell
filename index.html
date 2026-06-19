@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emotional Debt — Replication Package</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface2: #1e252e;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --accent2: #3fb950;
+      --accent3: #f78166;
+      --accent4: #d2a8ff;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --warn: #e3b341;
+      --card-glow: rgba(88, 166, 255, 0.08);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    /* ── SCROLL PROGRESS ── */
+    #progress-bar {
+      position: fixed;
+      top: 0; left: 0;
+      height: 3px;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--accent4));
+      z-index: 200;
+      transition: width .1s linear;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13,17,23,.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    .nav-logo {
+      font-weight: 700;
+      font-size: .95rem;
+      color: var(--text);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-logo span {
+      background: linear-gradient(135deg, var(--accent), var(--accent4));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .nav-links { display: flex; gap: 4px; list-style: none; }
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: .85rem;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: color .15s, background .15s;
+      position: relative;
+    }
+    .nav-links a:hover { color: var(--text); background: var(--surface2); }
+    .nav-links a.active { color: var(--accent); }
+    .nav-links a.active::after {
+      content: "";
+      position: absolute;
+      bottom: -1px; left: 12px; right: 12px;
+      height: 2px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 100px 24px 80px;
+      text-align: center;
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(88,166,255,0.18) 0%, transparent 70%);
+      border-bottom: 1px solid var(--border);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2358a6ff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      border: 1px solid rgba(88,166,255,.4);
+      color: var(--accent);
+      background: rgba(88,166,255,.1);
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      max-width: 860px;
+      margin: 0 auto 20px;
+      letter-spacing: -.02em;
+    }
+    .hero h1 em {
+      font-style: normal;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent4) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .authors {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px 24px;
+      margin: 20px 0 30px;
+    }
+    .author { font-size: .9rem; color: var(--muted); }
+    .author strong { color: var(--text); }
+    .author span { font-size: .8rem; display: block; }
+    .hero-btns {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 36px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-size: .9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform .15s, box-shadow .15s;
+      cursor: pointer;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: var(--accent); color: #0d1117; box-shadow: 0 0 20px rgba(88,166,255,.3); }
+    .btn-primary:hover { box-shadow: 0 0 30px rgba(88,166,255,.5); }
+    .btn-outline { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--border);
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .stat {
+      flex: 1 1 160px;
+      padding: 28px 20px;
+      text-align: center;
+      border-right: 1px solid var(--border);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-num {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent4) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .stat-label { font-size: .8rem; color: var(--muted); margin-top: 6px; text-transform: uppercase; letter-spacing: .05em; }
+
+    /* ── LAYOUT ── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 80px 0; }
+    section + section { border-top: 1px solid var(--border); }
+    h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 8px; letter-spacing: -.01em; }
+    .section-sub { color: var(--muted); margin-bottom: 48px; font-size: .95rem; }
+
+    /* ── FADE IN ── */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .5s ease, transform .5s ease;
+    }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* ── ABSTRACT ── */
+    .abstract-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 32px 36px;
+      font-size: .95rem;
+      color: #c9d1d9;
+      line-height: 1.8;
+    }
+
+    /* ── MODEL DIAGRAM ── */
+    .model-diagram {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 48px 0 24px;
+    }
+    .model-box {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 32px;
+      text-align: center;
+      min-width: 160px;
+      cursor: pointer;
+      transition: transform .2s, box-shadow .2s, border-color .2s;
+      user-select: none;
+    }
+    .model-box:hover { transform: translateY(-4px); }
+    .model-box.active-node { transform: translateY(-4px); }
+    .model-box .icon { display: none; }
+    .model-box .label { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
+    .model-box .name { font-size: 1.1rem; font-weight: 700; margin-top: 4px; }
+    .model-box.burnout { border-color: var(--accent3); box-shadow: 0 0 20px rgba(247,129,102,.12); }
+    .model-box.burnout .name { color: var(--accent3); }
+    .model-box.burnout.active-node { box-shadow: 0 0 32px rgba(247,129,102,.4); }
+    .model-box.debt { border-color: var(--warn); box-shadow: 0 0 20px rgba(227,179,65,.12); }
+    .model-box.debt .name { color: var(--warn); }
+    .model-box.debt.active-node { box-shadow: 0 0 32px rgba(227,179,65,.4); }
+    .model-box.smells { border-color: var(--accent4); box-shadow: 0 0 20px rgba(210,168,255,.12); }
+    .model-box.smells .name { color: var(--accent4); }
+    .model-box.smells.active-node { box-shadow: 0 0 32px rgba(210,168,255,.4); }
+
+    .model-arrow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 16px;
+      gap: 4px;
+    }
+    .arrow-coeff {
+      font-size: .8rem;
+      font-weight: 700;
+      color: var(--accent2);
+      background: rgba(63,185,80,.12);
+      border: 1px solid rgba(63,185,80,.3);
+      padding: 2px 10px;
+      border-radius: 20px;
+    }
+    .arrow-line {
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--border), var(--accent));
+      position: relative;
+    }
+    .arrow-line::after {
+      content: "▶";
+      position: absolute;
+      right: -6px;
+      top: -8px;
+      color: var(--accent);
+      font-size: 10px;
+    }
+
+    /* ── NODE DETAIL PANEL ── */
+    .node-detail {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 32px;
+      display: none;
+      animation: slideDown .25s ease;
+    }
+    .node-detail.open { display: block; }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .node-detail h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; }
+    .node-detail p { font-size: .9rem; color: var(--muted); line-height: 1.75; margin-bottom: 12px; }
+    .node-detail p:last-child { margin-bottom: 0; }
+    .node-detail .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .meta-pill {
+      font-size: .78rem;
+      padding: 3px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      background: var(--surface2);
+    }
+    .meta-pill strong { color: var(--text); }
+
+    /* ── MODEL CARDS ── */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .card:hover { border-color: var(--accent); box-shadow: 0 0 20px var(--card-glow); }
+    .card-icon { display: none; }
+    .card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
+    .card p { font-size: .88rem; color: var(--muted); line-height: 1.7; }
+
+    /* ── TABS (results) ── */
+    .tabs { margin-bottom: 0; }
+    .tab-bar {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0;
+    }
+    .tab-btn {
+      padding: 8px 16px;
+      font-size: .85rem;
+      font-weight: 600;
+      color: var(--muted);
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      transition: color .15s, border-color .15s;
+      margin-bottom: -1px;
+      white-space: nowrap;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; animation: fadeTab .2s ease; }
+    @keyframes fadeTab { from { opacity: 0; } to { opacity: 1; } }
+
+    /* ── RESULTS TABLE ── */
+    .results-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .88rem;
+    }
+    .results-table th {
+      background: var(--surface2);
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 600;
+      font-size: .78rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .results-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    .results-table tr:last-child td { border-bottom: none; }
+    .results-table tr:hover td { background: var(--surface2); }
+
+    /* ── BAR CELLS ── */
+    .bar-cell { display: flex; align-items: center; gap: 10px; }
+    .bar-track {
+      flex: 1;
+      height: 6px;
+      background: var(--surface2);
+      border-radius: 3px;
+      overflow: hidden;
+      min-width: 60px;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--accent4));
+      transition: width .8s cubic-bezier(.4,0,.2,1);
+      width: 0%;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: .75rem;
+      font-weight: 600;
+    }
+    .tag-green { background: rgba(63,185,80,.15); color: var(--accent2); border: 1px solid rgba(63,185,80,.3); }
+    .tag-blue  { background: rgba(88,166,255,.15); color: var(--accent);  border: 1px solid rgba(88,166,255,.3); }
+
+    /* ── CODE BLOCK ── */
+    .code-wrap { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .code-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border);
+      font-size: .8rem;
+      color: var(--muted);
+    }
+    .code-dots { display: flex; gap: 6px; }
+    .code-dots span { width: 12px; height: 12px; border-radius: 50%; }
+    .dot-red { background: #ff5f57; }
+    .dot-yellow { background: #febc2e; }
+    .dot-green { background: #28c840; }
+    pre {
+      padding: 20px;
+      overflow-x: auto;
+      font-family: "SF Mono", "Fira Code", "Cascadia Code", monospace;
+      font-size: .83rem;
+      line-height: 1.6;
+      color: #c9d1d9;
+    }
+    .hl-comment { color: var(--muted); font-style: italic; }
+    .hl-cmd { color: var(--accent2); }
+    .hl-str { color: var(--warn); }
+    .hl-flag { color: var(--accent4); }
+
+    /* ── ACCORDION STEPS ── */
+    .steps { display: flex; flex-direction: column; gap: 8px; }
+    .step {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: border-color .2s;
+    }
+    .step.open { border-color: var(--accent); }
+    .step-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 20px 24px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .step-header:hover .step-title { color: var(--accent); }
+    .step-num {
+      flex-shrink: 0;
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent4));
+      color: #0d1117;
+      font-weight: 700;
+      font-size: .85rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .step-title { font-size: 1rem; font-weight: 700; flex: 1; transition: color .15s; }
+    .step-chevron {
+      color: var(--muted);
+      font-size: .75rem;
+      transition: transform .25s;
+    }
+    .step.open .step-chevron { transform: rotate(180deg); }
+    .step-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .3s ease, padding .3s ease;
+      padding: 0 24px 0 72px;
+    }
+    .step.open .step-body {
+      max-height: 300px;
+      padding: 0 24px 20px 72px;
+    }
+    .step-body p { font-size: .88rem; color: var(--muted); }
+    .step-body code {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 6px;
+      font-family: "SF Mono", monospace;
+      font-size: .8rem;
+      color: var(--accent2);
+    }
+
+    /* ── CONSTRUCT TABS ── */
+    .construct-filter {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .filter-btn {
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: .82rem;
+      font-weight: 600;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .filter-btn:hover { color: var(--text); border-color: var(--text); }
+    .filter-btn.active { background: var(--accent); color: #0d1117; border-color: var(--accent); }
+    .construct {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      transition: opacity .3s, transform .3s;
+    }
+    .construct.hidden { display: none; }
+    .construct-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+    .construct-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .construct-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+    .construct h3 { font-size: 1rem; font-weight: 700; }
+    .construct .items { list-style: none; }
+    .construct .items li {
+      font-size: .83rem;
+      color: var(--muted);
+      padding: 5px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .construct .items li:last-child { border-bottom: none; }
+    .qid {
+      font-family: "SF Mono", monospace;
+      font-size: .75rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 6px;
+      flex-shrink: 0;
+      color: var(--accent);
+    }
+
+    /* ── FILES ── */
+    .file-tree {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: .83rem;
+    }
+    .file-tree .f-dir { color: var(--accent); font-weight: 600; }
+    .file-tree .f-file { color: var(--text); }
+    .file-tree .f-note { color: var(--muted); font-size: .78rem; }
+    .file-tree li { list-style: none; padding: 3px 0; }
+    .file-tree ul { padding-left: 20px; border-left: 1px solid var(--border); margin-left: 8px; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 40px 24px;
+      text-align: center;
+      font-size: .85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── CITATION ── */
+    .citation-box {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px;
+      font-family: "SF Mono", monospace;
+      font-size: .8rem;
+      color: #c9d1d9;
+      line-height: 1.8;
+      position: relative;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 12px; right: 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: .75rem;
+      cursor: pointer;
+      transition: color .15s, border-color .15s;
+    }
+    .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
+
+    @media (max-width: 700px) {
+      .nav-links { display: none; }
+      .stat { flex: 1 1 50%; }
+      .model-diagram { flex-direction: column; }
+      .model-arrow { transform: rotate(90deg); }
+      .tab-bar { overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="#">
+      <span>Emotional Debt</span>&nbsp;— Replication Package
+    </a>
+    <ul class="nav-links">
+      <li><a href="#abstract">Abstract</a></li>
+      <li><a href="#model">Model</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#constructs">Constructs</a></li>
+      <li><a href="#data">Data &amp; Code</a></li>
+      <li><a href="#replicate">Replicate</a></li>
+      <li><a href="#cite">Cite</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="badge">Replication Package · Empirical Software Engineering</div>
+  <h1>Can We Empirically Trace How Burnout Turns into <em>Emotional Debt</em> and Emotional Smells?</h1>
+  <div class="authors">
+    <div class="author">
+      <strong>Giammaria Giordano</strong>
+      <span>Pegaso University, Naples, Italy</span>
+    </div>
+    <div class="author">
+      <strong>Francesco Maria Torino</strong>
+      <span>University of Salerno, Italy</span>
+    </div>
+    <div class="author">
+      <strong>Fabio Palomba</strong>
+      <span>University of Salerno, Italy</span>
+    </div>
+  </div>
+  <div class="hero-btns">
+    <a class="btn btn-primary" href="Emotional Debt.pdf" download>&#8595; Download Paper (PDF)</a>
+    <a class="btn btn-outline" href="Definizione_e_Studio_di_Emotional_Debt_nello_Sviluppo_Software_Distribuito/Data/survey_pls.csv" download>&#8595; Dataset (CSV)</a>
+    <a class="btn btn-outline" href="Definizione_e_Studio_di_Emotional_Debt_nello_Sviluppo_Software_Distribuito/Scripts/format_for_plssem.py" download>&#8595; Python Script</a>
+    <a class="btn btn-outline" href="Definizione_e_Studio_di_Emotional_Debt_nello_Sviluppo_Software_Distribuito/Survey/Qualtrics Survey Software.pdf" download>&#8595; Survey Instrument</a>
+  </div>
+</header>
+
+<!-- STATS BAR -->
+<div class="stats-bar" id="stats-bar">
+  <div class="stat">
+    <div class="stat-num" data-count="72" data-suffix="">0</div>
+    <div class="stat-label">Software Developers</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num" data-count="61.3" data-suffix="%">0%</div>
+    <div class="stat-label">Variance Explained in Emotional Debt</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num" data-count="45.4" data-suffix="%">0%</div>
+    <div class="stat-label">Variance Explained in Emotional Smells</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">PLS-SEM</div>
+    <div class="stat-label">Analysis Method</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num" data-count="5000" data-suffix="" data-format="comma">0</div>
+    <div class="stat-label">Bootstrap Subsamples</div>
+  </div>
+</div>
+
+<!-- ABSTRACT -->
+<section id="abstract">
+  <div class="container">
+    <h2>Abstract</h2>
+    <p class="section-sub">Overview of the research problem, approach, and findings.</p>
+    <div class="abstract-box fade-in">
+      Burnout is an increasingly prevalent challenge in software engineering, yet its impact on software development processes remains insufficiently understood. In this paper, we introduce <strong>Emotional Debt</strong>, a novel socio-technical construct that captures the accumulation of unresolved psychological strain experienced by developers. We further operationalize this construct through <strong>Emotional Smells</strong>, a set of observable behavioral indicators that can manifest within software repositories.
+      <br/><br/>
+      To investigate the relationships among burnout, Emotional Debt, and Emotional Smells, we conducted a survey-based study of <strong>72 software developers</strong> and analyzed the resulting data using <strong>Partial Least Squares Structural Equation Modeling (PLS-SEM)</strong>. Our results show that burnout significantly contributes to the accumulation of Emotional Debt (R² = 0.613), which in turn positively influences the emergence of Emotional Smells (R² = 0.454). A significant partial mediation was also confirmed, suggesting that developer burnout damages repositories both directly and indirectly — through the progressive buildup of unaddressed emotional load.
+    </div>
+  </div>
+</section>
+
+<!-- MODEL -->
+<section id="model">
+  <div class="container">
+    <h2>Conceptual Model</h2>
+    <p class="section-sub">Click a node to explore each construct in detail.</p>
+
+    <div class="model-diagram">
+      <div class="model-box burnout" data-node="burnout" role="button" tabindex="0">
+        <div class="icon"></div>
+        <div class="label">Input</div>
+        <div class="name">Burnout</div>
+      </div>
+      <div class="model-arrow">
+        <div class="arrow-coeff">β = 0.783</div>
+        <div class="arrow-line"></div>
+        <div style="font-size:.7rem;color:var(--muted)">H1</div>
+      </div>
+      <div class="model-box debt" data-node="debt" role="button" tabindex="0">
+        <div class="icon"></div>
+        <div class="label">Mediator</div>
+        <div class="name">Emotional Debt</div>
+      </div>
+      <div class="model-arrow">
+        <div class="arrow-coeff">β = 0.432</div>
+        <div class="arrow-line"></div>
+        <div style="font-size:.7rem;color:var(--muted)">H2</div>
+      </div>
+      <div class="model-box smells" data-node="smells" role="button" tabindex="0">
+        <div class="icon"></div>
+        <div class="label">Output</div>
+        <div class="name">Emotional Smells</div>
+      </div>
+    </div>
+
+    <!-- Node detail panels -->
+    <div class="node-detail" id="detail-burnout">
+      <h3 style="color:var(--accent3)">Burnout</h3>
+      <p>Operationalized via the three canonical Maslach Burnout Inventory (MBI) dimensions. Burnout is defined by WHO as an occupational phenomenon resulting from chronic unmanaged workplace stress.</p>
+      <p><strong>Dimensions:</strong> Emotional Exhaustion (depletion of emotional resources) · Cynicism / Depersonalization (detachment from work) · Reduced Personal Efficacy (self-doubt about contributions).</p>
+      <div class="meta-row">
+        <span class="meta-pill"><strong>Items:</strong> 9 (QID1–QID3)</span>
+        <span class="meta-pill"><strong>Cronbach's α:</strong> 0.920</span>
+        <span class="meta-pill"><strong>AVE:</strong> 0.612</span>
+        <span class="meta-pill"><strong>Composite Reliability:</strong> 0.934</span>
+      </div>
+    </div>
+    <div class="node-detail" id="detail-debt">
+      <h3 style="color:var(--warn)">Emotional Debt</h3>
+      <p>A novel socio-technical construct — the accumulation of unresolved psychological strain by developers. Modeled through four lifecycle stages: Decision (triggered by burnout), Accumulation (latent burden), Observable Signals (Emotional Smells), and Long-term Costs (degraded maintainability).</p>
+      <p>Burnout explains <strong>61.3%</strong> of the variance in Emotional Debt (R² = 0.613, T = 8.624, p &lt; 0.001), with a strong path coefficient of β = 0.783.</p>
+      <div class="meta-row">
+        <span class="meta-pill"><strong>Items:</strong> 6 (QID4_1–QID4_6)</span>
+        <span class="meta-pill"><strong>Cronbach's α:</strong> 0.875</span>
+        <span class="meta-pill"><strong>AVE:</strong> 0.618</span>
+        <span class="meta-pill"><strong>Composite Reliability:</strong> 0.906</span>
+      </div>
+    </div>
+    <div class="node-detail" id="detail-smells">
+      <h3 style="color:var(--accent4)">Emotional Smells</h3>
+      <p>Observable behavioral proxies detectable in software repositories that signal underlying Emotional Debt accumulation. Organized into three macro-dimensions: Process Smells (map to Exhaustion) · Communication Smells (map to Cynicism) · Technical Shortcut Smells (map to Inefficacy).</p>
+      <p>Emotional Debt explains <strong>45.4%</strong> of variance in Emotional Smells (R² = 0.454). Partial mediation confirmed: both direct (β = 0.618) and indirect (β = 0.338) effects are significant.</p>
+      <div class="meta-row">
+        <span class="meta-pill"><strong>Items:</strong> 11 (QID5_1–QID5_11)</span>
+        <span class="meta-pill"><strong>Cronbach's α:</strong> 0.899</span>
+        <span class="meta-pill"><strong>AVE:</strong> 0.526</span>
+        <span class="meta-pill"><strong>Composite Reliability:</strong> 0.917</span>
+      </div>
+    </div>
+
+    <div class="grid-3" style="margin-top:32px;">
+      <div class="card fade-in">
+        <h3>Burnout (MBI)</h3>
+        <p>Operationalized via the three canonical Maslach Burnout Inventory dimensions: Emotional Exhaustion, Cynicism/Depersonalization, and Reduced Personal Efficacy.</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Emotional Debt</h3>
+        <p>A novel socio-technical construct representing the accumulation of unresolved psychological strain. Modeled through four lifecycle stages: Decision, Accumulation, Observable Signals, and Long-term Costs.</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Emotional Smells</h3>
+        <p>Observable behavioral proxies in software repositories: Process Smells (Exhaustion), Communication Smells (Cynicism), and Technical Shortcut Smells (Inefficacy).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+  <div class="container">
+    <h2>Key Results</h2>
+    <p class="section-sub">PLS-SEM analysis on 72 valid survey responses collected via Prolific.</p>
+
+    <div class="tabs">
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="measurement">Measurement Model</button>
+        <button class="tab-btn" data-tab="paths">Path Coefficients</button>
+        <button class="tab-btn" data-tab="r2">R² / Effect Sizes</button>
+        <button class="tab-btn" data-tab="mediation">Mediation</button>
+      </div>
+
+      <!-- Measurement Model -->
+      <div class="tab-panel active" id="tab-measurement">
+        <div style="overflow-x:auto;background:var(--surface);border:1px solid var(--border);border-radius:10px;margin-bottom:16px;">
+          <table class="results-table">
+            <thead>
+              <tr>
+                <th>Construct</th>
+                <th>Cronbach's α</th>
+                <th>rho A</th>
+                <th>Comp. Reliability (ρ<sub>C</sub>)</th>
+                <th>AVE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Burnout</td>
+                <td><div class="bar-cell"><span>0.920</span><div class="bar-track"><div class="bar-fill" data-pct="92"></div></div></div></td>
+                <td>0.928</td>
+                <td>0.934</td>
+                <td>0.612</td>
+              </tr>
+              <tr>
+                <td>Emotional Debt</td>
+                <td><div class="bar-cell"><span>0.875</span><div class="bar-track"><div class="bar-fill" data-pct="87.5"></div></div></div></td>
+                <td>0.887</td>
+                <td>0.906</td>
+                <td>0.618</td>
+              </tr>
+              <tr>
+                <td>Emotional Smells</td>
+                <td><div class="bar-cell"><span>0.899</span><div class="bar-track"><div class="bar-fill" data-pct="89.9"></div></div></div></td>
+                <td>0.911</td>
+                <td>0.917</td>
+                <td>0.526</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent2);border-radius:10px;padding:16px 20px;font-size:.88rem;color:var(--muted);">
+          <strong style="color:var(--text)">Discriminant Validity (HTMT):</strong> All values below 0.90 threshold —
+          ED&harr;Burnout: 0.846 &nbsp;|&nbsp; ES&harr;Burnout: 0.652 &nbsp;|&nbsp; ES&harr;ED: 0.711
+        </div>
+      </div>
+
+      <!-- Path Coefficients -->
+      <div class="tab-panel" id="tab-paths">
+        <div style="overflow-x:auto;background:var(--surface);border:1px solid var(--border);border-radius:10px;">
+          <table class="results-table">
+            <thead>
+              <tr><th>Path</th><th>β</th><th>Visual</th><th>T-value</th><th>p-value</th><th>VIF</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Burnout → Emotional Debt</td>
+                <td><strong>0.783</strong></td>
+                <td><div class="bar-track" style="min-width:80px"><div class="bar-fill" data-pct="78.3"></div></div></td>
+                <td>17.233</td>
+                <td><span class="tag tag-green">&lt;0.001</span></td>
+                <td>1.000</td>
+              </tr>
+              <tr>
+                <td>Burnout → Emotional Smells</td>
+                <td><strong>0.618</strong></td>
+                <td><div class="bar-track" style="min-width:80px"><div class="bar-fill" data-pct="61.8"></div></div></td>
+                <td>7.938</td>
+                <td><span class="tag tag-green">&lt;0.001</span></td>
+                <td>2.586</td>
+              </tr>
+              <tr>
+                <td>Emotional Debt → Emotional Smells</td>
+                <td><strong>0.432</strong></td>
+                <td><div class="bar-track" style="min-width:80px"><div class="bar-fill" data-pct="43.2"></div></div></td>
+                <td>2.670</td>
+                <td><span class="tag tag-blue">0.008</span></td>
+                <td>2.586</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- R² / Effect Sizes -->
+      <div class="tab-panel" id="tab-r2">
+        <div style="overflow-x:auto;background:var(--surface);border:1px solid var(--border);border-radius:10px;margin-bottom:16px;">
+          <table class="results-table">
+            <thead>
+              <tr><th>Endogenous Construct</th><th>R²</th><th>Visual</th><th>T-value</th><th>p-value</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional Debt</td>
+                <td><strong>0.613</strong></td>
+                <td><div class="bar-track" style="min-width:120px"><div class="bar-fill" data-pct="61.3"></div></div></td>
+                <td>8.624</td>
+                <td><span class="tag tag-green">&lt;0.001</span></td>
+              </tr>
+              <tr>
+                <td>Emotional Smells</td>
+                <td><strong>0.454</strong></td>
+                <td><div class="bar-track" style="min-width:120px"><div class="bar-fill" data-pct="45.4"></div></div></td>
+                <td>5.713</td>
+                <td><span class="tag tag-green">&lt;0.001</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 20px;font-size:.88rem;color:var(--muted);">
+          <strong style="color:var(--text)">Effect sizes (Cohen's f²):</strong>
+          Burnout → ED: <strong style="color:var(--text)">large</strong> (f² = 1.582) &nbsp;|&nbsp;
+          ED → ES: <strong style="color:var(--text)">small-to-moderate</strong> (f² = 0.132) &nbsp;|&nbsp;
+          Bootstrapping: 5,000 subsamples, two-tailed, α = 0.05
+        </div>
+      </div>
+
+      <!-- Mediation -->
+      <div class="tab-panel" id="tab-mediation">
+        <div style="overflow-x:auto;background:var(--surface);border:1px solid var(--border);border-radius:10px;margin-bottom:16px;">
+          <table class="results-table">
+            <thead>
+              <tr><th>Effect</th><th>Path</th><th>β</th><th>T-value</th><th>p-value</th><th>Result</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Total Effect</td>
+                <td>Burnout → ES</td>
+                <td>0.956</td>
+                <td>—</td>
+                <td>—</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td>Direct Effect (H3)</td>
+                <td>Burnout → ES</td>
+                <td>0.618</td>
+                <td>7.938</td>
+                <td><span class="tag tag-green">&lt;0.001</span></td>
+                <td><span class="tag tag-green">Significant</span></td>
+              </tr>
+              <tr>
+                <td>Indirect Effect (H4)</td>
+                <td>Burnout → ED → ES</td>
+                <td>0.338</td>
+                <td>2.614</td>
+                <td><span class="tag tag-blue">0.009</span></td>
+                <td><span class="tag tag-green">Significant</span></td>
+              </tr>
+              <tr>
+                <td>Mediation Type</td>
+                <td colspan="5"><strong>Partial Mediation</strong> — both direct and indirect effects are significant</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--warn);border-radius:10px;padding:16px 20px;font-size:.88rem;color:var(--muted);">
+          Burnout damages repositories through <strong style="color:var(--text)">two parallel channels</strong>: a direct behavioral impact (H3) and a slower, indirect channel through the progressive accumulation of Emotional Debt (H4).
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONSTRUCTS & SURVEY ITEMS -->
+<section id="constructs">
+  <div class="container">
+    <h2>Survey Constructs &amp; Items</h2>
+    <p class="section-sub">All 20 survey items across 4 constructs, measured on a 5-point Likert scale (1 = Never, 5 = Always).</p>
+
+    <div class="construct-filter">
+      <button class="filter-btn active" data-filter="all">All constructs</button>
+      <button class="filter-btn" data-filter="burnout">Burnout</button>
+      <button class="filter-btn" data-filter="debt">Emotional Debt</button>
+      <button class="filter-btn" data-filter="smells">Emotional Smells</button>
+    </div>
+
+    <div class="construct-grid">
+
+      <div class="construct" data-construct="burnout">
+        <div class="construct-header">
+          <div class="construct-dot" style="background:var(--accent3);box-shadow:0 0 8px var(--accent3)"></div>
+          <h3>Burnout — Exhaustion</h3>
+        </div>
+        <ul class="items">
+          <li><span class="qid">QID1_1</span>I feel mentally exhausted because of my software development work.</li>
+          <li><span class="qid">QID1_2</span>I feel emotionally drained after working.</li>
+          <li><span class="qid">QID1_3</span>I feel exhausted at the end of the working day.</li>
+        </ul>
+      </div>
+
+      <div class="construct" data-construct="burnout">
+        <div class="construct-header">
+          <div class="construct-dot" style="background:#f0883e;box-shadow:0 0 8px #f0883e"></div>
+          <h3>Burnout — Cynicism</h3>
+        </div>
+        <ul class="items">
+          <li><span class="qid">QID2_1</span>I feel more detached from my work than in the past.</li>
+          <li><span class="qid">QID2_2</span>I feel less emotionally involved in my project.</li>
+          <li><span class="qid">QID2_3</span>I tend to distance myself from work-related interactions.</li>
+        </ul>
+      </div>
+
+      <div class="construct" data-construct="burnout">
+        <div class="construct-header">
+          <div class="construct-dot" style="background:#ffa198;box-shadow:0 0 8px #ffa198"></div>
+          <h3>Burnout — Inefficacy</h3>
+        </div>
+        <ul class="items">
+          <li><span class="qid">QID3_1</span>I feel less effective in my development activities.</li>
+          <li><span class="qid">QID3_2</span>Tasks that were simple before now require much more effort.</li>
+          <li><span class="qid">QID3_3</span>I doubt the quality of my contributions.</li>
+        </ul>
+      </div>
+
+      <div class="construct" data-construct="debt">
+        <div class="construct-header">
+          <div class="construct-dot" style="background:var(--warn);box-shadow:0 0 8px var(--warn)"></div>
+          <h3>Emotional Debt</h3>
+        </div>
+        <ul class="items">
+          <li><span class="qid">QID4_1</span>I carry unresolved work-related emotional tensions over time.</li>
+          <li><span class="qid">QID4_2</span>Emotional stress from previous jobs continues to affect me.</li>
+          <li><span class="qid">QID4_3</span>I work without addressing the emotional difficulties related to work.</li>
+          <li><span class="qid">QID4_4</span>Accumulated frustration influences my work decision-making.</li>
+          <li><span class="qid">QID4_5</span>Emotional tension persists even after tasks are completed.</li>
+          <li><span class="qid">QID4_6</span>I feel emotionally "in debt" due to prolonged work pressure.</li>
+        </ul>
+      </div>
+
+      <div class="construct" data-construct="smells">
+        <div class="construct-header">
+          <div class="construct-dot" style="background:var(--accent4);box-shadow:0 0 8px var(--accent4)"></div>
+          <h3>Emotional Smells</h3>
+        </div>
+        <ul class="items">
+          <li><span class="qid">QID5_1</span>I have repeatedly worked at night or during weekends.</li>
+          <li><span class="qid">QID5_2</span>I made many small commits instead of few well-structured ones.</li>
+          <li><span class="qid">QID5_3</span>I performed commits with high frequency in short intervals.</li>
+          <li><span class="qid">QID5_4</span>My commit messages expressed frustration or negativity.</li>
+          <li><span class="qid">QID5_5</span>I wrote commit messages with little or no explanation (e.g., "fix").</li>
+          <li><span class="qid">QID5_6</span>I avoided commenting, reviewing, or participating in discussions.</li>
+          <li><span class="qid">QID5_7</span>I worked on the same files or modules predominantly alone.</li>
+          <li><span class="qid">QID5_8</span>I reworked the same code multiple times in a short period.</li>
+          <li><span class="qid">QID5_9</span>I repeatedly reverted recent changes.</li>
+          <li><span class="qid">QID5_10</span>I applied fixes that did not fully resolve the problem.</li>
+          <li><span class="qid">QID5_11</span>I used AI-generated code with minimal review or adaptation.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- DATA & CODE -->
+<section id="data">
+  <div class="container">
+    <h2>Data &amp; Code</h2>
+    <p class="section-sub">All materials needed to independently verify and extend this study.</p>
+
+    <div class="grid-2" style="margin-bottom:40px;">
+
+      <div>
+        <h3 style="font-size:1.1rem;margin-bottom:20px;">Repository Structure</h3>
+        <div class="file-tree">
+          <ul>
+            <li><span class="f-dir">replication-package/</span></li>
+            <ul>
+              <li><span class="f-dir">Data/</span></li>
+              <ul>
+                <li><span class="f-file">survey.csv</span> <span class="f-note">— raw Qualtrics export</span></li>
+                <li><span class="f-file">survey_pls.csv</span> <span class="f-note">— cleaned for SmartPLS</span></li>
+              </ul>
+              <li><span class="f-dir">Scripts/</span></li>
+              <ul>
+                <li><span class="f-file">format_for_plssem.py</span> <span class="f-note">— data preparation</span></li>
+              </ul>
+              <li><span class="f-dir">Survey/</span></li>
+              <ul>
+                <li><span class="f-file">Qualtrics Survey Software.pdf</span></li>
+              </ul>
+              <li><span class="f-dir">Pls-sem/</span></li>
+              <ul>
+                <li><span class="f-dir">SmartPls project/</span></li>
+                <ul>
+                  <li><span class="f-file">*.splsm</span> <span class="f-note">— SmartPLS 4 project</span></li>
+                  <li><span class="f-file">*.splsrp</span> <span class="f-note">— saved results</span></li>
+                </ul>
+                <li><span class="f-dir">Exports/</span></li>
+                <ul>
+                  <li><span class="f-file">Bootstrapping.xlsx</span></li>
+                  <li><span class="f-file">Pls algorithm.xlsx</span></li>
+                  <li><span class="f-file">Pls predict.xlsx</span></li>
+                  <li><span class="f-file">Principal components analysis.xlsx</span></li>
+                  <li><span class="f-file">Confirmatory Terad Analises.xlsx</span></li>
+                </ul>
+              </ul>
+              <li><span class="f-dir">Conceptual/</span></li>
+              <ul>
+                <li><span class="f-file">Tesi progetto.pdf</span> <span class="f-note">— conceptual model</span></li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <h3 style="font-size:1.1rem;margin-bottom:20px;">Data Preparation Script</h3>
+        <div class="code-wrap">
+          <div class="code-header">
+            <div class="code-dots">
+              <span class="dot-red"></span>
+              <span class="dot-yellow"></span>
+              <span class="dot-green"></span>
+            </div>
+            <span>format_for_plssem.py</span>
+          </div>
+          <pre><span class="hl-comment"># Install dependencies</span>
+<span class="hl-cmd">pip install</span> <span class="hl-str">pandas numpy</span>
+
+<span class="hl-comment"># Run the data preparation pipeline</span>
+<span class="hl-cmd">python</span> Scripts/format_for_plssem.py \
+  <span class="hl-flag">--in</span>  Data/survey.csv \
+  <span class="hl-flag">--out</span> Data/survey_pls.csv
+
+<span class="hl-comment"># The script:
+# · Detects data start row automatically
+# · Filters incomplete responses
+# · Applies attention-check quality filters
+# · Selects survey construct columns
+# · Converts all values to numeric
+# · Removes empty rows / columns
+# · Outputs clean CSV for SmartPLS</span></pre>
+        </div>
+
+        <div style="margin-top:20px;" class="card">
+          <h3>SmartPLS 4 Analysis</h3>
+          <p>Open the <code>.splsm</code> project in <strong>SmartPLS 4</strong> and run: (1) PLS Algorithm, (2) Bootstrapping (5,000 subsamples, two-tailed, α = 0.05), (3) PLSpredict. All exported results are included in <code>Pls-sem/Exports/</code> for independent verification.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REPLICATE -->
+<section id="replicate">
+  <div class="container">
+    <h2>How to Replicate</h2>
+    <p class="section-sub">Click each step to expand. Reproduce all results from scratch.</p>
+    <div class="steps">
+
+      <div class="step open">
+        <div class="step-header">
+          <div class="step-num">1</div>
+          <span class="step-title">Data Collection</span>
+          <span class="step-chevron">&#9650;</span>
+        </div>
+        <div class="step-body">
+          <p>Deploy the survey instrument (see <code>Survey/</code>) via <strong>Qualtrics</strong>. Recruit active software developers through <strong>Prolific</strong>. Apply three quality filters: attention check, minimum completion time, active version control experience. Target at least 72 valid responses.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header">
+          <div class="step-num">2</div>
+          <span class="step-title">Data Preparation</span>
+          <span class="step-chevron">&#9650;</span>
+        </div>
+        <div class="step-body">
+          <p>Export raw data from Qualtrics as <code>survey.csv</code>. Run: <code>python Scripts/format_for_plssem.py --in Data/survey.csv --out Data/survey_pls.csv</code>. Verify output row count and column set match the included <code>survey_pls.csv</code>.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header">
+          <div class="step-num">3</div>
+          <span class="step-title">Measurement Model Evaluation</span>
+          <span class="step-chevron">&#9650;</span>
+        </div>
+        <div class="step-body">
+          <p>Open the SmartPLS project and run the <strong>PLS Algorithm</strong>. Check: outer loadings &gt; 0.70, AVE &gt; 0.50, Composite Reliability &gt; 0.70, HTMT &lt; 0.90. Compare against <code>Pls algorithm.xlsx</code> and <code>Confirmatory Terad Analises.xlsx</code>.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header">
+          <div class="step-num">4</div>
+          <span class="step-title">Structural Model &amp; Bootstrapping</span>
+          <span class="step-chevron">&#9650;</span>
+        </div>
+        <div class="step-body">
+          <p>Run <strong>Bootstrapping</strong> with 5,000 subsamples, two-tailed test, α = 0.05. Verify path coefficients (β), T-values, p-values, R², f², and VIF ratios against <code>Bootstrapping.xlsx</code>. Check VIF &lt; 5 for collinearity.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header">
+          <div class="step-num">5</div>
+          <span class="step-title">Predictive Assessment (PLSpredict)</span>
+          <span class="step-chevron">&#9650;</span>
+        </div>
+        <div class="step-body">
+          <p>Run <strong>PLSpredict</strong> to assess out-of-sample predictive power. For each indicator, verify that PLS RMSE &lt; LM RMSE, confirming the structural model outperforms a naïve linear baseline. Compare against <code>Pls predict.xlsx</code>.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header">
+          <div class="step-num">6</div>
+          <span class="step-title">Mediation Analysis</span>
+          <span class="step-chevron">&#9650;</span>
+        </div>
+        <div class="step-body">
+          <p>Use SmartPLS specific effects output to verify the indirect path: Burnout → Emotional Debt → Emotional Smells (β = 0.338, T = 2.614, p = 0.009). Confirm partial mediation: both direct and indirect effects are significant.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CITE -->
+<section id="cite">
+  <div class="container">
+    <h2>Citation</h2>
+    <p class="section-sub">If you use this data or code in your research, please cite our work.</p>
+    <div class="citation-box">
+      <button class="copy-btn" onclick="copyBib()">Copy BibTeX</button>
+@inproceedings{giordano2026emotionaldebt,<br/>
+&nbsp;&nbsp;title     = {Can We Empirically Trace How Burnout Turns into Emotional Debt and Emotional Smells?},<br/>
+&nbsp;&nbsp;author    = {Giordano, Giammaria and Torino, Francesco Maria and Palomba, Fabio},<br/>
+&nbsp;&nbsp;booktitle = {},<br/>
+&nbsp;&nbsp;year      = {2026},<br/>
+&nbsp;&nbsp;note      = {Replication package available at this page}<br/>
+}
+    </div>
+
+    <div class="grid-3" style="margin-top:32px;">
+      <div class="card fade-in">
+        <h3>Contact</h3>
+        <p>For questions about the replication package, contact <strong>Giammaria Giordano</strong> at giammaria.giordano@unipegaso.it</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Related Work</h3>
+        <p>This study builds on prior work on code smells, community smells, technical debt, and ML-specific code smells by the same research group.</p>
+      </div>
+      <div class="card fade-in">
+        <h3>Future Directions</h3>
+        <p>Planned extensions include automatic detection of Emotional Smells via MSR, CI/CD integration, longitudinal validation, and analysis of GenAI impact on emotional debt.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Replication Package &mdash; <em>Emotional Debt in Software Engineering</em></p>
+  <p style="margin-top:8px;">
+    Giammaria Giordano · Francesco Maria Torino · Fabio Palomba &nbsp;·&nbsp;
+    <a href="Emotional Debt.pdf">Paper PDF</a> &nbsp;|&nbsp;
+    <a href="Definizione_e_Studio_di_Emotional_Debt_nello_Sviluppo_Software_Distribuito/Data/survey_pls.csv">Dataset</a>
+  </p>
+</footer>
+
+<script>
+  /* ── SCROLL PROGRESS BAR ── */
+  const bar = document.getElementById('progress-bar');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    bar.style.width = pct + '%';
+  }, { passive: true });
+
+  /* ── SMOOTH SCROLL ── */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  /* ── ACTIVE NAV ON SCROLL ── */
+  const sections = document.querySelectorAll('section[id], header[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(a => a.classList.remove('active'));
+        const link = document.querySelector(`.nav-links a[href="#${e.target.id}"]`);
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  sections.forEach(s => io.observe(s));
+
+  /* ── ANIMATED STAT COUNTERS ── */
+  const statEls = document.querySelectorAll('.stat-num[data-count]');
+  const statsObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      statsObserver.unobserve(e.target);
+      const el = e.target;
+      const target = parseFloat(el.dataset.count);
+      const suffix = el.dataset.suffix || '';
+      const fmt = el.dataset.format;
+      const isFloat = target % 1 !== 0;
+      const duration = 1200;
+      const start = performance.now();
+      (function tick(now) {
+        const t = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - t, 3);
+        let val = target * eased;
+        if (isFloat) val = val.toFixed(1);
+        else val = Math.round(val);
+        if (fmt === 'comma') val = Number(val).toLocaleString();
+        el.textContent = val + suffix;
+        if (t < 1) requestAnimationFrame(tick);
+      })(start);
+    });
+  }, { threshold: 0.5 });
+  statEls.forEach(el => statsObserver.observe(el));
+
+  /* ── FADE-IN ON SCROLL ── */
+  const fadeEls = document.querySelectorAll('.fade-in');
+  const fadeObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        fadeObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  fadeEls.forEach(el => fadeObs.observe(el));
+
+  /* ── TABS (results section) ── */
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.tab;
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('tab-' + key).classList.add('active');
+      // animate bars in newly shown panel
+      animateBars(document.getElementById('tab-' + key));
+    });
+  });
+
+  function animateBars(container) {
+    container.querySelectorAll('.bar-fill').forEach(fill => {
+      const pct = parseFloat(fill.dataset.pct) || 0;
+      fill.style.width = '0%';
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        fill.style.width = pct + '%';
+      }));
+    });
+  }
+
+  // Animate bars in initially visible tab
+  animateBars(document.getElementById('tab-measurement'));
+
+  // Re-animate when tab panel enters viewport
+  const tabObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) animateBars(e.target);
+    });
+  }, { threshold: 0.2 });
+  document.querySelectorAll('.tab-panel').forEach(p => tabObs.observe(p));
+
+  /* ── CLICKABLE MODEL NODES ── */
+  let activeNode = null;
+  document.querySelectorAll('.model-box[data-node]').forEach(box => {
+    box.addEventListener('click', () => {
+      const key = box.dataset.node;
+      const detail = document.getElementById('detail-' + key);
+      const already = box.classList.contains('active-node');
+
+      // reset all
+      document.querySelectorAll('.model-box').forEach(b => b.classList.remove('active-node'));
+      document.querySelectorAll('.node-detail').forEach(d => d.classList.remove('open'));
+
+      if (!already) {
+        box.classList.add('active-node');
+        detail.classList.add('open');
+        detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    });
+    box.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') box.click(); });
+  });
+
+  /* ── ACCORDION STEPS ── */
+  document.querySelectorAll('.step-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const step = header.parentElement;
+      const isOpen = step.classList.contains('open');
+      // collapse all
+      document.querySelectorAll('.step').forEach(s => s.classList.remove('open'));
+      if (!isOpen) step.classList.add('open');
+    });
+  });
+
+  /* ── CONSTRUCT FILTER ── */
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('.construct').forEach(c => {
+        if (filter === 'all' || c.dataset.construct === filter) {
+          c.classList.remove('hidden');
+        } else {
+          c.classList.add('hidden');
+        }
+      });
+    });
+  });
+
+  /* ── BIBTEX COPY ── */
+  function copyBib() {
+    const bib = `@inproceedings{giordano2026emotionaldebt,
+  title     = {Can We Empirically Trace How Burnout Turns into Emotional Debt and Emotional Smells?},
+  author    = {Giordano, Giammaria and Torino, Francesco Maria and Palomba, Fabio},
+  booktitle = {},
+  year      = {2026},
+  note      = {Replication package available at this page}
+}`;
+    navigator.clipboard.writeText(bib).then(() => {
+      const btn = document.querySelector('.copy-btn');
+      btn.textContent = 'Copied!';
+      setTimeout(() => btn.textContent = 'Copy BibTeX', 2000);
+    });
+  }
+</script>
+
+</body>
+</html>
