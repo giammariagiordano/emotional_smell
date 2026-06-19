@@ -20,7 +20,7 @@ The site presents the abstract, conceptual model, all PLS-SEM results, survey co
 emotional_smell/
 ├── index.html                        # GitHub Pages site (single-page app)
 ├── Emotional Debt.pdf                # Paper (preprint)
-└── Definizione_e_Studio_di_Emotional_Debt_nello_Sviluppo_Software_Distribuito/
+└── replication-package/
     ├── Data/
     │   ├── survey.csv                # Raw Qualtrics export
     │   └── survey_pls.csv            # Cleaned dataset ready for SmartPLS
@@ -47,9 +47,9 @@ emotional_smell/
 ```bash
 pip install pandas numpy
 
-python "Definizione_e_Studio_di_Emotional_Debt_nello_Sviluppo_Software_Distribuito/Scripts/format_for_plssem.py" \
-  --in  "Definizione_e_Studio_di_Emotional_Debt_nello_Sviluppo_Software_Distribuito/Data/survey.csv" \
-  --out "Definizione_e_Studio_di_Emotional_Debt_nello_Sviluppo_Software_Distribuito/Data/survey_pls.csv"
+python "replication-package/Scripts/format_for_plssem.py" \
+  --in  "replication-package/Data/survey.csv" \
+  --out "replication-package/Data/survey_pls.csv"
 ```
 
 The script auto-detects the data start row, filters incomplete responses, applies attention-check filters, selects construct columns, and outputs a clean CSV.
