@@ -1,0 +1,944 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Pagina-1" id="cMIB0StDuqyJlWnG0gG4">
+    <mxGraphModel dx="2927" dy="3127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-3" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-6" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-7" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-18" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="t1NPJCmZGFiIl3dLrfCd-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="330" />
+              <mxPoint x="55" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=none;startFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="330" />
+              <mxPoint x="55" y="220" />
+            </Array>
+            <mxPoint x="125" y="330" as="sourcePoint" />
+            <mxPoint x="-20.000000000001023" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-21" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="t1NPJCmZGFiIl3dLrfCd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-22" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="t1NPJCmZGFiIl3dLrfCd-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-156" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.451;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="t1NPJCmZGFiIl3dLrfCd-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="191" y="1265.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Burnout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-26" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="20" />
+              <mxPoint x="700" y="-150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-31" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="20" />
+              <mxPoint x="700" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-32" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="20" />
+              <mxPoint x="700" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-33" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="20" />
+              <mxPoint x="700" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Esaurimento emotivo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="425" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-36" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-37" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Cinismo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-43" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-44" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-45" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="620" />
+              <mxPoint x="700" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-46" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="620" />
+              <mxPoint x="700" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-47" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="620" />
+              <mxPoint x="700" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Inefficacia Professionale&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="420" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="1160" as="sourcePoint" />
+            <mxPoint x="290" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Feonomeno&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Dimensioni di stato (Conseguenze individuali)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="390" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-13" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="1130" as="sourcePoint" />
+            <mxPoint x="80" y="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Entusiasmo idealistico&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-140" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Stagnazione&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-135" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Frustrazione&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-140" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Dimensioni di processo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="-170" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Apatia&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="-140" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-23" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-369" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="1160" as="sourcePoint" />
+            <mxPoint x="660" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-71" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Commit notturni o fuori orario persistenti" vertex="1">
+          <mxGeometry height="80" width="120" x="860" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-70" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Commit con sentiment negativo" vertex="1">
+          <mxGeometry height="80" width="120" x="860" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-69" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Riduzione progressiva della dimensione media dei commit" vertex="1">
+          <mxGeometry height="80" width="120" x="865" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-68" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Radio silence" vertex="1">
+          <mxGeometry height="60" width="120" x="865" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-75" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Commit autoreferenziali senza contesto esplicativo" vertex="1">
+          <mxGeometry height="80" width="120" x="860" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-76" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Lone wolf" vertex="1">
+          <mxGeometry height="60" width="120" x="860" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-79" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="549.454545454545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Rilavorazione frequente dello stesso codice" vertex="1">
+          <mxGeometry height="80" width="120" x="860" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-80" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Rilavorazione frequente dello stesso codice" vertex="1">
+          <mxGeometry height="80" width="120" x="860" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-82" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Revert ripetuti" vertex="1">
+          <mxGeometry height="80" width="120" x="865" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-78" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Fix incrementali non risolutivi" vertex="1">
+          <mxGeometry height="80" width="120" x="865" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-85" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-49" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="1430" width="310" x="770" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-42" parent="t1NPJCmZGFiIl3dLrfCd-49" style="rounded=1;whiteSpace=wrap;html=1;" value="Utilizzo di AI-Generated code&lt;div&gt;con problemi a licenze o vulnerabilità del codice usato per l&#39;addestramento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="95" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-24" parent="t1NPJCmZGFiIl3dLrfCd-49" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Proxy nelle repository&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="57" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-358" parent="t1NPJCmZGFiIl3dLrfCd-49" style="rounded=1;whiteSpace=wrap;html=1;" value="Legame stretto tra sentimenti e produttività&lt;div&gt;(A survey on the impact of emotions on the productivity among software developers)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="290" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Conseguenze socio-tecniche&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="592.5" x="640" y="-390" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-53" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1270" y="1160" as="sourcePoint" />
+            <mxPoint x="1270" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Misurazioni possibili&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="1385" y="-390" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1690" y="1170" as="sourcePoint" />
+            <mxPoint x="1690" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Interventi possibili e prevenzione&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="1820" y="-390" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-104" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Organizational checkup System (OCS)&amp;nbsp;&lt;div&gt;Non scalabile&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1420" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-106" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-181" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-182">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="-530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-63" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Analisi del sentiment" vertex="1">
+          <mxGeometry height="80" width="120" x="1420" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-105" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-64" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Analisi dei commit" vertex="1">
+          <mxGeometry height="80" width="120" x="1420" y="-191" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-108" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-65" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Analisi dei commit" vertex="1">
+          <mxGeometry height="80" width="120" x="1420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-109" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-67" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Smell Analyzer&lt;div&gt;Sfruttando teoria dei grafi&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1420" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-110" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-73" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Analisi del sentiment" vertex="1">
+          <mxGeometry height="80" width="120" x="1420" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-111" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-74" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Smell Analyzer&lt;div&gt;Sfruttando teoria dei grafi&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="1420" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-112" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-77" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Analisi dei commit" vertex="1">
+          <mxGeometry height="80" width="120" x="1420" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-116" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-312" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-84" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="AI code generated detection" vertex="1">
+          <mxGeometry height="80" width="120" x="1420" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-113" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="689" />
+              <mxPoint x="1640" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Misurazioni Valence – Dominance – Arousal&lt;div&gt;Non scalabile&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1410" y="659" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-114" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="840" />
+              <mxPoint x="1640" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Electrodermal Activity&lt;div&gt;Non scalabile&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1410" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-91" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-92" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-94" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-96" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-99" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-101" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-103" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-172" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1964" y="342" />
+              <mxPoint x="1964" y="1100" />
+            </Array>
+            <mxPoint x="1864" y="341.9999999999998" as="sourcePoint" />
+            <mxPoint x="2019" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-279" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-278">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1963" y="342" />
+              <mxPoint x="1963" y="1230" />
+            </Array>
+            <mxPoint x="1863" y="342" as="sourcePoint" />
+            <mxPoint x="2018" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-88" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Aumento engagement" vertex="1">
+          <mxGeometry height="60" width="120" x="1740" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-89" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Servizi di consulenza psicologica" vertex="1">
+          <mxGeometry height="80" width="120" x="2070" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-154" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-155" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-90" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Aumento motivazione" vertex="1">
+          <mxGeometry height="80" width="120" x="2070" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-93" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Formazione sulla gestione dello stress" vertex="1">
+          <mxGeometry height="80" width="120" x="2070" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-180" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-95" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Favorire relazioni interopersonali" vertex="1">
+          <mxGeometry height="80" width="120" x="2070" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-178" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-375" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-374">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-97" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Distribuire carico di lavoro" vertex="1">
+          <mxGeometry height="80" width="120" x="2070" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-176" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-98" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Automatizzazione processi ripetitivi" vertex="1">
+          <mxGeometry height="80" width="120" x="2070" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-102" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Retrospettive Agili efficaci" vertex="1">
+          <mxGeometry height="80" width="120" x="2070" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-117" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-270" y="1130" as="sourcePoint" />
+            <mxPoint x="-270" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fenomeni&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="-603" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-133" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="-110" />
+              <mxPoint x="-320" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-134" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="-110" />
+              <mxPoint x="-320" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-135" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="-110" />
+              <mxPoint x="-320" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-136" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="-110" />
+              <mxPoint x="-320" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Burnout&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-630" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Stress&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-630" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-121" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fattori di rischio occupazionale&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="277" x="-1070" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-122" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-710" y="1140" as="sourcePoint" />
+            <mxPoint x="-710" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-123" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Fisici&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1000" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Chimici&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1000" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Ergonomici&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1000" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-129" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-130" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-131" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-132" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Psicosociali&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1000" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Comportamenti violenti&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-630" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-128" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Traumatizzazione vicaria&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-630" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Rivoluzioni industriali&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="277" x="-1518" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-138" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1160" y="1150" as="sourcePoint" />
+            <mxPoint x="-1160" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-140" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-139" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Prima rivoluzione (meccanizzazione)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="-1469.5" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-143" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-145" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-142" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Seconda rivoluzione (Produzione di massa)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="-1469.5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-146" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-147" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-144" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Terza rivoluzione (Digitalizzazione)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="-1469.5" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-149" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-150" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-148" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Quarta rivoluzione (Smart)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="-1469.5" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-152" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Piramide dei bisogni di Mazlow" vertex="1">
+          <mxGeometry height="80" width="120" x="2330" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-153" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Modello MOI" vertex="1">
+          <mxGeometry height="80" width="120" x="2330" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-275" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-158" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="820" width="310" x="49" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-160" parent="t1NPJCmZGFiIl3dLrfCd-158" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Conseguenze organizzative&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="264" x="9" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-161" parent="t1NPJCmZGFiIl3dLrfCd-158" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Rage quitting&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="81" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-163" parent="t1NPJCmZGFiIl3dLrfCd-158" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Turnover volontario&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="81" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-164" parent="t1NPJCmZGFiIl3dLrfCd-158" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Riduzione produttività&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="81" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-165" parent="t1NPJCmZGFiIl3dLrfCd-158" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Assenteismo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="81" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-166" parent="t1NPJCmZGFiIl3dLrfCd-158" style="ellipse;whiteSpace=wrap;html=1;" value="Deterioramento del clima organizzativo" vertex="1">
+          <mxGeometry height="80" width="120" x="81" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-167" parent="t1NPJCmZGFiIl3dLrfCd-158" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;strong data-start=&quot;1620&quot; data-end=&quot;1659&quot;&gt;Perdita di conoscenza organizzativa&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="81" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-201" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Emotional debt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="592.5" x="628.75" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-174" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-171" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Predizione con Ml (Burnout in Software Engineering: A Systematic Mapping Study)" vertex="1">
+          <mxGeometry height="60" width="230" x="2015" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-173" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Problemi con GDPR" vertex="1">
+          <mxGeometry height="80" width="120" x="2390" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-175" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Pipeline CI/CD" vertex="1">
+          <mxGeometry height="80" width="120" x="2380" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-177" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gamification / migliore gestione organizzativa" vertex="1">
+          <mxGeometry height="80" width="120" x="2380" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-179" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Team building" vertex="1">
+          <mxGeometry height="80" width="120" x="2380" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-184" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-182" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Problemi con gergo tecnico" vertex="1">
+          <mxGeometry height="60" width="120" x="1680" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-188" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-191" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-183" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Dati di addestramento errati (Bias negativo)" vertex="1">
+          <mxGeometry height="60" width="120" x="1680" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-186" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="sentistrength&lt;div&gt;(EmoTxt A Toolkit for Emotion Recognition from Text)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1530" y="-890" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-194" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="t1NPJCmZGFiIl3dLrfCd-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-195" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-190" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="EmoTk&lt;div&gt;(EMTk – The Emotion Mining Toolkit)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1810" y="-890" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-197" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-192" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Senti4SD/&lt;div&gt;SentistrenghtSe/&lt;/div&gt;&lt;div&gt;SentiCR&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1701" y="-1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-193" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="EmoTxt" vertex="1">
+          <mxGeometry height="60" width="120" x="1920" y="-1020" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-196" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Addestrato su stackOverflow" vertex="1">
+          <mxGeometry height="60" width="120" x="1700" y="-1150" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-198" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="720" width="760" x="1400" y="-1200" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-199" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Wrapper&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1730" y="-1240" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-200" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="720" width="790" x="530.25" y="-1200" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-204" parent="t1NPJCmZGFiIl3dLrfCd-200" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="360" width="400" x="390" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-211" parent="t1NPJCmZGFiIl3dLrfCd-204" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Emotional debt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="-26.25" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-219" parent="t1NPJCmZGFiIl3dLrfCd-204" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Focus: Individuo&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="366.25" x="17.180000000000064" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-220" parent="t1NPJCmZGFiIl3dLrfCd-204" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Impatto: Individuale, organizzativo e socio-tecnico&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="366.25" x="20.310000000000173" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-207" parent="t1NPJCmZGFiIl3dLrfCd-200" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="360" width="390" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-208" parent="t1NPJCmZGFiIl3dLrfCd-207" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Techical debt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="-28.119999999999997" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-213" parent="t1NPJCmZGFiIl3dLrfCd-207" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Focus: Manutenibilità e architettura&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="366.25" x="3.75" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-214" parent="t1NPJCmZGFiIl3dLrfCd-207" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Impatto: Sforzo extra e bassa qualità&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="366.25" x="6.8799999999999955" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-209" parent="t1NPJCmZGFiIl3dLrfCd-200" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Social debt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="351.88" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-210" parent="t1NPJCmZGFiIl3dLrfCd-200" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Fairness debt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="-26.25" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-215" parent="t1NPJCmZGFiIl3dLrfCd-200" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Focus: Dinamiche del team&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="366.25" x="400.30999999999995" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-216" parent="t1NPJCmZGFiIl3dLrfCd-200" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Impatto: Problemi comunicativi e community smell&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="366.25" x="403.44000000000005" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-217" parent="t1NPJCmZGFiIl3dLrfCd-200" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Focus: Società e comunità&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="366.25" x="5.309999999999945" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-218" parent="t1NPJCmZGFiIl3dLrfCd-200" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Impatto: Ingiustizie sociali e provvedimenti legali&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="366.25" x="8.440000000000055" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-350" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-296">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-253" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="70" width="769" x="1096" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-262" parent="t1NPJCmZGFiIl3dLrfCd-253" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Black box&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="351.88" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-263" parent="t1NPJCmZGFiIl3dLrfCd-253" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;White-box&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="-32.81" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-277" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-273" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Perdita di 1000 miliardi di dollari(A survey on the impact of emotions on the productivity among software developers)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="245" width="260" x="-460" y="1557.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-276" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Perdita di 2000 miliardi entro il 2030&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="260" x="-460" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-281" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-280">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-283" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-282">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-286" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-278" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Controllo delle emozioni (catalogo delle emozioni degli sviluppatori Wrobel)&lt;div&gt;A survey on the impact of emotions on the productivity among software developers&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="2015" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-290" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-289">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-280" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Frustrazione" vertex="1">
+          <mxGeometry height="80" width="120" x="2380" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-291" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2590" y="1379.666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-282" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Entusiasmo" vertex="1">
+          <mxGeometry height="80" width="120" x="2380" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-288" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-287">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-292" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-289">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-285" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="Rabbia" vertex="1">
+          <mxGeometry height="80" width="120" x="2380" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-287" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Iniezione di adrenalina e quindi può essere in brevi periodi è positiva" vertex="1">
+          <mxGeometry height="80" width="120" x="2580" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-294" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-289" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-293">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-289" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Questionario:&lt;div&gt;6 domande per stato emotivo&lt;/div&gt;&lt;div&gt;6 domande per produttività percepita&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="2590" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-293" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="L&#39;80% della produttività dipende dallo stato emotivo. (r^2)" vertex="1">
+          <mxGeometry height="80" width="170" x="2830" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-301" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-300">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-305" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-302">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-308" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-306">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-311" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-310">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-296" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ai-gen-code-search&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="247" x="1357.75" y="1597" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-300" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Come il contenuto viene suddiviso - Chuncking definito dal contenuto.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="190" x="1077" y="1843" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-304" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-302" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Finger printing con locality sensitive hashing.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Crea impronta digitale approssimativa.&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="190" x="1386" y="1843" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-303" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Frammenti di codice simili producono impronte simili.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Passiamo dal 1 o 0 del checksum al livello di somiglianza&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="291.5" x="1336.5" y="2083" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-306" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Deduplicazione intelligente&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="190" x="1697" y="1843" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-310" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Token -&amp;gt; winowing -&amp;gt; chuncking -&amp;gt; impronte LSH -&amp;gt; deduplicazione -&amp;gt; Trovare l&#39;autore con distanza di hamming&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="239.75" x="1687.25" y="1542" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-329" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="739" width="1790" x="-1490" y="-1169" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-331" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Techical debt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="80" y="19" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-332" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Social debt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="676.88" y="19" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-333" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Emotional debt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="1280" y="19" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-335" edge="1" parent="t1NPJCmZGFiIl3dLrfCd-329" source="t1NPJCmZGFiIl3dLrfCd-329" style="endArrow=none;html=1;rounded=0;entryX=0.333;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.66;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1180" y="700" as="sourcePoint" />
+            <mxPoint x="1180" y="-1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-337" parent="t1NPJCmZGFiIl3dLrfCd-329" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="201" width="540" x="30.01" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-338" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Code smell&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="81.89" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-339" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;-&amp;nbsp;&lt;/font&gt;Class-level smells&lt;div&gt;&lt;font size=&quot;3&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Method-level smells&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Inheritance &amp;amp; OOP smells&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Coupling &amp;amp; Dependency smells&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Architecture-level smells&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Exception &amp;amp; Error Handling smells&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="131" width="210" x="60" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-340" parent="t1NPJCmZGFiIl3dLrfCd-329" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Self-Admitted Technical Debt (SATD)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="201" width="540" x="30.00999999999999" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-341" parent="t1NPJCmZGFiIl3dLrfCd-329" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="201" width="540" x="28.130000000000003" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-342" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Metriche&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="270.02" y="519" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-343" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;-&amp;nbsp;&lt;/font&gt;Concurrency &amp;amp; Parallelism smells&lt;div&gt;- Test-related smells&lt;/div&gt;&lt;div&gt;- Documentation &amp;amp; Comment smells&lt;/div&gt;&lt;div&gt;- Process-related smells (bridge to socio-technical)&lt;br&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="210" x="320" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-344" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;ul class=&quot;ul1&quot; style=&quot;list-style-type: &amp;quot;—&amp;nbsp;&amp;nbsp;&amp;quot;; font-size: medium;&quot;&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font&gt;Complessità ciclomatica&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;Code churn&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font&gt;Numero di bug&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font&gt;Frequenza di rilavorazione&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font&gt;Test coverage in calo&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0);&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 9px; line-height: normal; font-family: Menlo;&quot;&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;•&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 12px; line-height: normal;&quot;&gt;&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;⁃&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;Aumento del coupling&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="210" x="50" y="579" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-345" parent="t1NPJCmZGFiIl3dLrfCd-329" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="621" width="540" x="620" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-346" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Community smell&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="680" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-347" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;ul class=&quot;ul1&quot; style=&quot;list-style-type: &amp;quot;—&amp;nbsp;&amp;nbsp;&amp;quot;; font-size: medium;&quot;&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Architecture by Osmosis&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Architecture Hood&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Black Cloud&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Class Cognition&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Code Red&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Cognitive Distance&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Cookbook Development&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;DevOps Clash&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Disengagement&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Dispersion&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Dissensus&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Hyper Community&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Informality Excess&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Institutional Isomorphism&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Invisible Architecting&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Leftover Techie&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Lone Wolf&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Lonesome Architecting&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Newbie Freeriding&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Obfuscated Architecting&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Organizational Silo&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Organizational Skirmish&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Power Distance&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Priggish Members&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Prima Donnas&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Radio Silence / Bottleneck&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Sharing Villainy&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Solution Defiance&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Time Warp&lt;/font&gt;&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Unlearning&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="512" width="447" x="663" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-348" parent="t1NPJCmZGFiIl3dLrfCd-329" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="621" width="540" x="1210" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-349" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Emotional smell&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="436.25" x="1261.88" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-352" parent="t1NPJCmZGFiIl3dLrfCd-329" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;ul class=&quot;ul1&quot; style=&quot;list-style-type: &amp;quot;—&amp;nbsp;&amp;nbsp;&amp;quot;; font-size: medium;&quot;&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Persistent Off-Hours Activity&lt;/b&gt; – commit notturni o fuori dall’orario lavorativo effettuati in modo ricorrente, indicativi di sovraccarico e difficoltà nel mantenere confini tra lavoro e vita privata.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Workload Compression&lt;/b&gt; – riduzione progressiva della dimensione media dei commit, che suggerisce frammentazione del lavoro e difficoltà nel mantenere una visione complessiva delle modifiche.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;High-Frequency Commit Pattern&lt;/b&gt; – elevato numero di commit di piccole dimensioni concentrati in brevi finestre temporali, spesso associato a pressione temporale e stress cognitivo.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Negative Commit Sentiment&lt;/b&gt; – presenza ricorrente di sentiment negativo nei messaggi di commit, come espressioni di frustrazione, irritazione o cinismo.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Self-Referential Commits&lt;/b&gt; – messaggi di commit autoreferenziali e privi di contesto esplicativo (es. “fix”, “again”, “my change”), che indicano ridotta disponibilità cognitiva alla comunicazione.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Communication Withdrawal&lt;/b&gt; – &lt;i&gt;radio silence&lt;/i&gt;, ovvero assenza o drastica riduzione di commenti, code review e interazioni nelle pull request, segnale di distacco emotivo e ridotto ingaggio.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Lone Contribution Pattern&lt;/b&gt; – &lt;i&gt;lone wolf&lt;/i&gt;, presenza persistente di singoli sviluppatori che lavorano isolatamente sugli stessi file o moduli senza interazioni significative con il team.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Repeated Rework&lt;/b&gt; – rilavorazione frequente dello stesso codice in brevi intervalli temporali, indicativa di difficoltà decisionali e percezione di inefficacia.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Repeated Reverts&lt;/b&gt; – utilizzo ricorrente di operazioni di revert, che segnala incertezza, errori ripetuti o mancanza di controllo sul risultato del proprio lavoro.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Non-Resolving Fixes&lt;/b&gt; – successione di fix incrementali che non risolvono definitivamente il problema, riflettendo perdita di efficacia professionale e accumulo di frustrazione.&lt;/li&gt;&lt;li class=&quot;li1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;;&quot;&gt;&lt;b&gt;Uncritical AI Code Adoption&lt;/b&gt; – utilizzo frequente di codice generato da AI inserito con minime modifiche e scarsa documentazione, interpretato come delega cognitiva in condizioni di stress o affaticamento emotivo.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="512" width="447" x="1250" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-330" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-329">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-334" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-329" style="endArrow=none;html=1;rounded=0;entryX=0.333;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.334;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" target="t1NPJCmZGFiIl3dLrfCd-329" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-894" y="-470" as="sourcePoint" />
+            <mxPoint x="-1080" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-336" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Community Smells - The Sources of Social Debt:&lt;br&gt;A Systematic Literature Review&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="1010" x="-1110" y="-1240" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-353" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;RQ1. In che modo è possibile individuare e misurare l’emotional debt attraverso segnali osservabili negli artefatti software e nei repository di sviluppo?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="155" width="640" x="2610" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-354" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;RQ2. Quali strategie organizzative e manageriali possono contribuire alla gestione e alla prevenzione dell’emotional debt nei team di sviluppo software?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="155" width="640" x="2610" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-355" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;RQ3. Quali sono le conseguenze dell’accumulo di emotional debt sui processi di sviluppo, sulle dinamiche sociali dei team e sulla qualità del software prodotto?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="155" width="640" x="2610" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-357" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-356" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-356" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Affecting computing" vertex="1">
+          <mxGeometry height="80" width="120" x="1410" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-362" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-360" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-361">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-364" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-360" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-363">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-360" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Potenzialmente l&#39;utilizzo dell&#39;IA crea burnout (Modeling Developer Burnout with GenAI Adoption)" vertex="1">
+          <mxGeometry height="110" width="150" x="850" y="1287" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-359" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-360">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="926" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-361" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Lavoro nascosto con l&#39;utilizzo di AI" vertex="1">
+          <mxGeometry height="60" width="120" x="865" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-366" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-365">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-363" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Modello job-demands-resources" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="1312" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-365" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Le aziende spesso chiedono di utilizzare l&#39;IA solo per una questione di immagine" vertex="1">
+          <mxGeometry height="80" width="120" x="680" y="1462" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-367" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="&lt;h3 data-start=&quot;217&quot; data-end=&quot;381&quot;&gt;&lt;span data-start=&quot;221&quot; data-end=&quot;381&quot; style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;RQ4. In che modo il burnout individuale degli sviluppatori si riflette sulla qualità del prodotto software e sull’emergere di forme di debito socio-tecnico?&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3 data-start=&quot;383&quot; data-end=&quot;407&quot;&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="155" width="640" x="2610" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-371" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" target="t1NPJCmZGFiIl3dLrfCd-369" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="1160" as="sourcePoint" />
+            <mxPoint x="660" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-373" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-369" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-369" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Deskilling&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="590" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-372" edge="1" parent="1" source="t1NPJCmZGFiIl3dLrfCd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t1NPJCmZGFiIl3dLrfCd-369">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1NPJCmZGFiIl3dLrfCd-374" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Introdurre nuovi modi di concepire matrici RAM" vertex="1">
+          <mxGeometry height="80" width="120" x="2380" y="649" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
